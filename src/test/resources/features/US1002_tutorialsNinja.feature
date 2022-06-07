@@ -1,6 +1,7 @@
 Feature: TutorialsNinja
 
-  Scenario: TC01 kullanici belirtilen sitede alisveris yapar
+ @ikisi
+  Scenario: TC04 kullanici belirtilen sitede alisveris yapar
     Given kullanici tutorial Ninja anasayfasinda
     Then kullanici phone pda sekmesine gecis yapar
     And  kullanici arayuzdeki tum telefonlari alısveris listesine ekler
@@ -10,7 +11,7 @@ Feature: TutorialsNinja
     And sayfayi kapatir
 
 
-    Scenario: TC02 kullanici listesini goruntuler
+    Scenario: TC05 kullanici listesini goruntuler
       Given kullanici tutorial Ninja anasayfasinda
       Then kullanici phone pda sekmesine gecis yapar
       And kullanici arayuzdeki tum telefonlari alısveris listesine ekler
