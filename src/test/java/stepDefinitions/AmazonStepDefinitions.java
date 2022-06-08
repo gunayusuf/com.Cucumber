@@ -108,4 +108,10 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(actualUrl.contains(istenenKelime));
 
     }
+
+    @And("sonucların {string} icerdigini test eder")
+    public void sonuclarınIcerdiginiTestEder(String istenenKelime) {
+
+        Assert.assertTrue(amazonPage.aramaSonucElementi.getText().contains(istenenKelime));
+    }
 }

@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@config",
-        dryRun = false
+        tags = "@heroku",
+        dryRun = true
 
 )
 
