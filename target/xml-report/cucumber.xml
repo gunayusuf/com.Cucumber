@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.064">
+    <testcase classname="US1012 web tablosundaki istenen sutunu yazdirma" name="TC19 kullanici sutun basligi ile liste alabilmeli" time="13.755">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "Company" sutunundaki tum degerleri yazdirir............................passed
+Then kullanici 2 sn bekler..................................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
