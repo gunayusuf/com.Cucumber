@@ -13,10 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@guru",
-        dryRun = false
-
-)
+        tags = "@exercise2",
+        dryRun = true          )
 
 
 public class TestRunner {

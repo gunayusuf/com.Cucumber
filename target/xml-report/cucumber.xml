@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.064">
-    <testcase classname="US1012 web tablosundaki istenen sutunu yazdirma" name="TC19 kullanici sutun basligi ile liste alabilmeli" time="13.755">
-        <system-out>
-            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
-And "Company" sutunundaki tum degerleri yazdirir............................passed
-Then kullanici 2 sn bekler..................................................passed
-And sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.45">
+    <testcase classname="US1016 Exercises 2" name="TC23 Login User with correct email and password" time="0.104">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "automationExerciseUrl" anasayfasinda.......................passed
+Then Verify that home page is visible successfully..........................passed
+And kullanici 1 sn bekler...................................................passed
+And Click on Signup and Login button........................................passed
+And kullanici 1 sn bekler...................................................passed
+And Verify Login to your account is visible.................................undefined
+And Enter correct email address and password................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then Click login button.....................................................skipped
+And Verify that Logged in as username is visible............................skipped
+And kullanici 1 sn bekler...................................................skipped
+And Click Delete Account button.............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then Verify that ACCOUNT DELETED is visible.................................skipped
+Then kullanici 1 sn bekler..................................................skipped
+And sayfayi kapatir.........................................................skipped
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
